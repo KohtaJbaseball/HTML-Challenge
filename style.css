@@ -62,11 +62,11 @@ nav {
   margin-top: 10px;
 }
 
-.main-box {
+.portfolio {
   background-color: #eceff1;
 }
 
-.portfolio {
+.portfolio-box {
   width: 920px;
   margin: 0 auto;
   justify-content: center;
