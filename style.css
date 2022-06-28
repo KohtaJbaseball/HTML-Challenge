@@ -73,14 +73,16 @@ nav {
   padding: 90px 0;
 }
 
-.portfolio-heading {
+.portfolio-heading,
+.feature-heading {
   font-size: 32px;
   color: #000000;
   text-align: center;
   position: relative;
 }
 
-.portfolio-heading::after {
+.portfolio-heading::after,
+.feature-heading::after {
   content: '';
 	display: block;
 	position: absolute;
@@ -92,14 +94,15 @@ nav {
 	background-color: #ec715f;
 }
 
-.portfolio-text {
+.portfolio-text,
+.feature-text {
   padding: 30px 0;
   text-align: center;
   font-size: 16px;
   color: #000000;
 }
 
-.portfolio-content {
+.portfolio-contents {
   display: flex;
   flex-wrap: wrap;
 }
@@ -139,4 +142,41 @@ nav {
 
 .portfolio-image:nth-child(6) {
   background-image: url(img/webcamp-mother.png);
+}
+
+.feature-box {
+  width: 980px;
+  margin: 0 auto;
+  justify-content: center;
+  padding: 90px 0;
+}
+
+.feature-contents {
+  display: flex;
+  margin-top: 30px;
+}
+
+.ferture-item {
+  width: 320px;
+}
+
+.feature-item:nth-child(2) {
+  padding: 0 10px;
+}
+
+.social {
+  text-align: center;
+  font-size: 60px;
+}
+
+.feature-item-name {
+  text-align: center;
+  margin: 10px 0;
+  font-size: 20px;
+  color: #000000;
+}
+
+.feature-item-text {
+  font-size: 16px;
+  color: #000000;
 }
