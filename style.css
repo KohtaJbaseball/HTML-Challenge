@@ -266,3 +266,16 @@ nav {
 .contact-social {
   font-size: 50px;
 }
+
+footer {
+  background-color: #ec715f;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+}
+
+.footer-text {
+  font-size: 16px;
+  color: #fafafa;
+}
